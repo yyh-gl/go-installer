@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 if [ -z "${VERSION}" ]; then echo 'VERSIONを指定してください。'; exit 1; fi
 
 mkdir $HOME/go && \
